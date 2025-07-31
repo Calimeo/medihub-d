@@ -3,9 +3,9 @@ import axios from "axios";
 import { FaPaperPlane } from "react-icons/fa";
 import { io } from "socket.io-client";
 import API from "@/axios/axios.js";
-import API from "@/axios/socket.js";
 
-const socket = io("http://localhost:4000", {
+
+const socket = io("https://backend-medilink-eub1.onrender.com", {
   withCredentials: true,
 });
 
